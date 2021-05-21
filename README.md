@@ -7,7 +7,7 @@ Also I know the repo name is weird I just had no other ideas what to name it.
 
 ## Play
 If you want to play this (for some reason...), the only way for you to play it is to either 
-- Play the HTML5 version on this repo's [Github Pages](https://acrazytown.github.io/FNFHaxeImitation/index.html)
+- Play the HTML5 version on this repo's [Github Pages](https://acrazytown.github.io/FunkinTitleRecreation/)
 or
 - Build it yourself.
   - Building it yourself is harder, depending on if you wish to build it for HTML5 or Windows/Mac/Linux.
