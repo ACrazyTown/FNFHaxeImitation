@@ -144,6 +144,10 @@ class PlayState extends FlxTransitionableState
 		new FlxTimer().start(72, function(FlxTimer)
 		{
 			txt.text = "goodbye";
+			new FlxTimer().start(2, function(FlxTimer)
+			{
+				FlxG.switchState(new TitleState());
+			});
 		});
 
 		wiggleEffect = new WiggleEffect();
