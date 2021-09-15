@@ -21,18 +21,18 @@ or
 **Music** by **[kawaisprite](https://twitter.com/kawaisprite)**
 **OG Game** by **[ninjamuffin99](https://twitter.com/ninja_muffin99)**
 
-## Building the game
-In order to build the game, you need to download and install Haxe/HaxeFlixel. This is fairly easy.
+## Building
+In order to build this, you need to download and install Haxe/HaxeFlixel. This is fairly easy.
 
 1. Download & Install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) (do not download Haxe 4.2.0 as apparently it is buggy but I have not tested it out.)
 2. Download & Install [HaxeFlixel](https://haxeflixel.com/documentation/install-haxeflixel/)
 
-After doing this, you need to install some addons. An up-to-date list will be in the `Project.xml` file however currently the game relies only on the flixel-addons so you can install them by running ```haxelib run flixel setup```.
+After doing this, you need to install some addons. An up-to-date list will be in the `Project.xml` file however currently the project relies only on the flixel-addons so you can install them by running ```haxelib run flixel setup```.
 
 ### HTML5
-To build the game for HTML5 is fairly simple.
-- If you just want to run the game locally, type `lime test html5 -debug` in a command interface in the root of the Project.
-- If you want to build the game, type `lime build html5 -final`.
+To build for HTML5 is fairly simple.
+- If you just want to run the project locally, type `lime test html5 -debug` in a command interface in the root of the Project.
+- If you want to build the project, type `lime build html5 -final`.
 
 ### Linux
 Open a terminal in the project's directory and type `lime test linux -debug` then run the executable file located in `export/release/linux/bin`.
